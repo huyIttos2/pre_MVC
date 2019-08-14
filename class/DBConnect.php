@@ -1,6 +1,4 @@
 <?php
-
-
 class DBConnect
 {
     public $dsn;
