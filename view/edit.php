@@ -14,7 +14,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     $student = new Student($name, $phone, $address);
     $studentDB->update($id, $student);
     header("Location: index.php");
-
 }
 
 ?>
